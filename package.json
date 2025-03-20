@@ -1,0 +1,22 @@
+{
+  "name": "glpi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon src/App.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.7.9",
+    "express": "^4.21.2",
+    "ldap": "^0.7.1",
+    "ldapjs": "^3.0.7",
+    "nodemon": "^3.1.9",
+    "puppeteer": "^24.2.0",
+    "xlsx": "^0.18.5"
+  }
+}
